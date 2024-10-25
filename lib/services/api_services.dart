@@ -14,7 +14,7 @@ class ApiServices {
   String cast = "https://api.themoviedb.org/3/movie/";
   String search = "https://api.themoviedb.org/3/search/movie?query=";
 
-  String apiKey = "?api_key=67cc884deceda0099ac029e86eebea7d";
+  String apiKey = "?api_key=722e938974ed2869ee301410ce44f68c";
 
   Future<List<MovieModel>> getPopularMovies() async {
     Response response = await get(Uri.parse("$popularMovies$apiKey"));
