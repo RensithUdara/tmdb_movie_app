@@ -404,7 +404,7 @@ class _HomePageState extends State<HomePage> {
                                                     const Icon(
                                                       Icons.star,
                                                       color: Colors.amber,
-                                                      size: 16,
+                                                      size: 15,
                                                     )
                                                   ],
                                                 ),
